@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <h1>Weather Global</h1>
+    <div class="input-container">
+        <input type="text" name="" id="city-input" placeholder="Enter city name">
+        <button id="btn-search">Search</button>
+    </div>
+    <div class="weather-info-container">
+        <div class="no-info">
+            <img src="img/no-info.png" alt="">
+            <p>Sorry we couldn't find the city</p>
+        </div>
+        <div class="info">
+            <img id="icon-weather" src="img/sunny.png" alt="">
+            <h2 id="temperature">19°C</h2>
+            <h3 id="location">Maputo</h3>
+            <div class="details">
+                <div class="humidity-box">
+                    <img src="img/humidity.png" alt="">
+                    <span id="humidity">0</span>
+                </div>
+                <div class="wind-box">
+                    <img src="img/wind.png" alt="">
+                    <span id="wind">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
