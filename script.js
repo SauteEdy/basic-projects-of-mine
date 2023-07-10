@@ -17,7 +17,7 @@ async function checkWeather(){
         if(data.weather[0].main == "Clouds"){
             iconWeather.src = "img/5903939.png"
         }else if(data.weather[0].main == "Rain"){
-            iconWeather.src = "img/rain/png";
+            iconWeather.src = "img/rain.png";
         }else if(data.weather[0].main == "Clear"){
             iconWeather.src = "img/sunny.png";
         }else if(data.weather[0].main == "Mist"){
